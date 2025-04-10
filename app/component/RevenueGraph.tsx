@@ -13,7 +13,7 @@ import { revenueType } from "../page";
 export default function RevenueGraph({ data }: { data: revenueType[] }) {
   return (
     <>
-      <div className="flex flex-col flex-2 rounded-lg border-2 border-[#575e78] p-5 gap-6">
+      <div className="flex flex-col 2xl:flex-2 h-[400px] rounded-lg border-2 border-[#575e78] p-5 gap-6">
         <p className="font-bold text-[20px]">Revenue Analytics</p>
         <div className="flex-2">
           <ResponsiveContainer>

@@ -148,7 +148,7 @@ export default function Home() {
           <ListDeals topDealsData={topDealsData} />
           <BarGraphComp title="Total visit" data={topVisit} color="#c3633b" />
         </div>
-        <div className="flex flex-col gap-6 h-full 2xl:flex-2">
+        <div className="flex flex-col gap-6 2xl:h-full h-fit 2xl:flex-2">
           <div className="flex md:flex-row flex-col md:flex-1 gap-6">
             <CardGraph
               color="#8742ff"
@@ -188,7 +188,7 @@ export default function Home() {
           <RevenueGraph data={revenueData} />
         </div>
         <div className="2xl:flex-1 flex flex-col gap-3">
-          <div className="flex-2 flex flex-col rounded-lg border-2 border-[#575e78] p-5">
+          <div className="2xl:flex-2 h-[500px] flex flex-col rounded-lg border-2 border-[#575e78] p-5">
             <p className="text-[20px] font-bold">Leads by Source</p>
             <div className="flex-1 ">
               <CircleGraphComp />
